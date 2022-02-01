@@ -1,0 +1,77 @@
+/* div {
+    border:1px solid black;
+} */
+
+.small {
+	font-size: 12px;
+}
+
+.font-monospace {
+	font-size: 12px;
+}
+
+.height {
+	height: 100vh
+}
+
+.form {
+	position: relative
+}
+
+.form .fa-search {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: #9ca3af
+}
+
+.form span {
+	position: absolute;
+	right: 17px;
+	top: 13px;
+	padding: 2px;
+	border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+	padding-left: 7px
+}
+
+.left-pan i {
+	padding-left: 10px
+}
+
+.form-input {
+	height: 55px;
+	text-indent: 33px;
+	border-radius: 10px
+}
+
+.form-input:focus {
+	box-shadow: 1px;
+	border: 1px
+}
+
+.btn-primary {
+	color: white;
+	background-color: CornflowerBlue;
+	border-color: white;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.btn-secondary {
+	color: white;
+	background-color: DarkGray;
+	border-color: white;
+}
+
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #DarkGray;
+	border-color: white;
+}

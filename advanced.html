@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">CS50ogle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="index.html">Search</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="images.html">Image Search</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="advanced.html">Advanced Search</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link" href="https://www.linkedin.com/in/ross-coron/">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <td>
+                        <h5 style="color:red;">
+                            Advanced Search
+                            <h5>
+                                <br>
+                    </td>
+                    <td></td>
+                    <td></td>
+                <tr>
+                    <td>
+                        <form action="https://www.google.co.uk/search">
+                            <label for="all_words">all these words:</label>
+                    </td>
+                    <td> <input type="text" input type="hidden" name="as_q" id="all_words"></td>
+                    <td>
+                        <p class="small">Type the important words: <code>tri-colour rat terrier</code></p></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="https://www.google.co.uk/search">
+                            <label for="exact_words">this exact word or phrase:</label>
+                    </td>
+                    <td> <input type="text" input type="hidden" name="as_epq" id="exact_words"></td>
+                    <td>
+                        <p class="small">Put exact words in quotes: <code>"rat terrier"</code></small></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="https://www.google.co.uk/search">
+                            <label for="any_words">any of these words:</label>
+                    </td>
+                    <td> <input type="text" input type="hidden" name="as_oq" id="any_words"></td>
+                    <td>
+                        <p class="small">Type OR between all the words you want: <code>miniature OR standard</code></p></small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="https://www.google.co.uk/search">
+                            <label for="none_words">none of these words:</label>
+                    </td>
+                    <td> <input type="text" input type="hidden" name="as_eq" id="none_words"></td>
+                    <td>
+                        <p class="small">Put a minus sign just before words that you don't want: <code>-rodent, -"Jack Russell"<code></p></small>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <br>
+        <form action="https://www.google.co.uk/search">
+            <input type="submit" value="Advanced Search" class="btn btn-primary">
+        </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
